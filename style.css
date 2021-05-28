@@ -318,6 +318,7 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     width: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     padding: 20px ;
     text-align: left;
     margin: 30px;
@@ -332,14 +333,14 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -mo-text-fill-color: transparent;
-    margin-bottom: 3px;
+    /* margin-bottom: 6px; */
 
 }
 
 .about__heading2{
     font-size: 3rem;
     color: rgb(180, 61, 180);
-    margin-bottom: 3px;
+    /* margin-bottom: 6px; */
 
 }
 
@@ -347,13 +348,13 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     font-size: 2rem;
     font-weight: 600;
     color: white;
-    margin-bottom: 3px;
+    /* margin-bottom: 6px; */
 
 }
 
 .call__btn{
     display: block;
-    margin: 20px 0px;
+    /* margin: 20px 0px; */
 }
 
 #call__link{
