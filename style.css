@@ -383,6 +383,16 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     }
     .fa-dumbbell{
         font-size: 10rem;
-        
+
+    }
+}
+@media screen and (max-width: 400px){
+    .about__section__image{
+        min-height: 250px;
+        min-width: 250px;
+    }
+    .fa-dumbbell{
+        font-size: 8rem;
+
     }
 }
