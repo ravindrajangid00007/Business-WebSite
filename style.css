@@ -303,8 +303,8 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
 
 .about__section__image{
     height: auto;
-    min-height: 350px;
-    width: 350px;
+    min-height: 500px;
+    width: 500px;
     background: #ff00cc; 
     background: -webkit-linear-gradient(to right, #333399, #ff00cc);
     background: linear-gradient(to right, #333399, #ff00cc); 
@@ -313,6 +313,11 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     justify-content: center;
     align-items: center;
 
+}
+
+.fa-dumbbell{
+    font-size: 14rem;
+    color: white;
 }
 .about__section__content{
     height: auto;
@@ -372,5 +377,12 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     #call__link{
         font-size: 1.2rem;
         padding: 5px 10px ;
+    }
+    .about__section__image{
+        min-height: 350px;
+    }
+    .fa-dumbbell{
+        font-size: 10rem;
+        
     }
 }
