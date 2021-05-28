@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -393,6 +393,71 @@ background: linear-gradient(to right, #FFAF7B, #D76D77, #3A1C71); /* W3C, IE 10+
     }
     .fa-dumbbell{
         font-size: 8rem;
-
     }
+}
+
+.service__section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 100px 0px ;
+}
+.service__heading{
+    font-size: 3rem;
+    background: #FF416C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FF4B2B, #FF416C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FF4B2B, #FF416C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -mo-text-fill-color: transparent;
+    margin-bottom: 100px;
+
+}
+.service__container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.service__card{
+    min-height: 350px;
+    min-width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #ee0979;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ff6a00, #ee0979);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ff6a00, #ee0979); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 40px 0px;
+    color: white;
+    border-radius: 10px;
+}
+
+.service__card h2{
+    font-size: 2rem;
+    /* font-family: 'Sigmar One', cursive; */
+}
+
+.service__card p{
+    font-size: 1.5rem;
+}
+
+.get__started{
+    height: auto;
+    width: auto;
+    border: none;
+    margin: 30px;
+    padding: 10px 20px;
+    background: #000000; 
+    background: linear-gradient(to right, #434343, #000000); 
+    font-size: 1.5rem;
+    color: white;
+    border-radius: 5px;
+
 }
